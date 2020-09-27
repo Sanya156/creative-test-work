@@ -1,0 +1,28 @@
+.flatsList {
+  &__col {
+    display: flex;
+  }
+}
+.flatCard {
+  height: 100%;
+  &__title {
+
+  }
+  &__address {
+
+  }
+  &__agent {
+    
+  }
+  &__like {
+    outline:none;
+    $root: #{&};
+    &--liked {
+      #{$root} {
+        &__icon {
+          fill: #f00;
+        }
+      }
+    }
+  }
+}
