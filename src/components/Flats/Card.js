@@ -12,7 +12,7 @@ class Card extends Component {
     return (
       <div className="flatList__col col-lg-4 col-md-6 col-12 mb-4">
         <div className="flatCard card">
-          <img className="card-img-top img-fluid" src="//placehold.it/500x200" alt="Plug" />
+          <img className="card-img-top img-fluid" src="http://placehold.it/500x200" alt="Plug" />
         <div className="card-body">
           <div className="card-title h5 flatCard__title">{item.attributes.title}</div>
           <dl className="row">
